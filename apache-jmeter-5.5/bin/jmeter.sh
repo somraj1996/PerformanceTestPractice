@@ -29,10 +29,12 @@
 ##   JVM_ARGS="-Xms512m -Xmx512m" jmeter.sh etc.
 ##
 ##   ==============================================
-
 # resolve links - $0 may be a softlink (code as used by Tomcat)
 # N.B. readlink would be a lot simpler but is not supported on Solaris
-PRG="$0"
+
+# THIS IS A NEW COMMENT
+
+PRG="$0"  
 
 while [ -h "$PRG" ]; do
   ls=`ls -ld "$PRG"`
